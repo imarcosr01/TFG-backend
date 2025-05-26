@@ -1,7 +1,7 @@
 // src/services/AuthService.ts
 import { AppDataSource } from "../data-source";
 import { Usuario } from "../entities/Usuario";
-import bcrypt from "bcrypt";
+import bcrypt from 'bcryptjs';
 import jwt from "jsonwebtoken";
 
 export class AuthService {

@@ -3,7 +3,8 @@ import { AppDataSource } from '../data-source';
 import { Usuario } from '../entities/Usuario';
 import { Alumno } from '../entities/Alumno';
 import { Clase } from '../entities/Clase';
-import * as bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
+
 
 interface ImportResult {
     success: number;
